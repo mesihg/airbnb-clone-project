@@ -96,7 +96,7 @@ The project is a real-world simulation of Airbnb booking platform. It involves a
    * The `Bookings` table has a one-to-one relationship with the `Payments` table.
    * `booking_id` of `Payments` is a foreign key referencing `booking_id` of `Bookings` table.
 
-### Feature Breakdown
+## Feature Breakdown
 | Feature | Description |
 | :--- | :--- |
 | **User Management** | This feature handle user management. |
@@ -105,3 +105,13 @@ The project is a real-world simulation of Airbnb booking platform. It involves a
 | **Booking System** | This feature handles reservation related management. |
 | **Review and Rating System** | Allows **Guests** to submit feedback and ratings about the experience of thier reservations. |
 | **Payment Integration** | Manages the secure initiation and tracking of payment transactions. |
+
+## API Security
+### Key Security Measures
+| Measure | Description |
+| :--- | :--- |
+| **Authentication** | The process of verifying a user's identity who claims to be. This process ensures users data is protected. | 
+| **Authorization** | Determines what an authenticated user is permitted to do. |
+| **Input Validation and Sanitization** | Check and clean all data received by the API endpoints. |
+| **Rate Limiting** | Restricting the number of API requests a user or IP address can make within a specific time frame.
+| **Data Encryption** | Ensuring all data trasmitted between the client and the API is encrypted using HTTPS especially for **Securing Payments and Sensitive Credentials**. |
