@@ -115,3 +115,10 @@ The project is a real-world simulation of Airbnb booking platform. It involves a
 | **Input Validation and Sanitization** | Check and clean all data received by the API endpoints. |
 | **Rate Limiting** | Restricting the number of API requests a user or IP address can make within a specific time frame.
 | **Data Encryption** | Ensuring all data trasmitted between the client and the API is encrypted using HTTPS especially for **Securing Payments and Sensitive Credentials**. |
+
+## CI/CD Pipeline
+### Tools Used
+| Tool | Role in CI/CD Pipeline |
+| :--- | :--- |
+| **Github Actions** | Used to define the automated workflows, trigger builds on commits, and manage the deployement stages. |
+| **Docker** | Used for **containerization** to package the application and its dependencies into portable images. |
