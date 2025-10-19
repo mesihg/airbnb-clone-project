@@ -95,3 +95,13 @@ The project is a real-world simulation of Airbnb booking platform. It involves a
  #### Bookings and Payments (One-to-One)
    * The `Bookings` table has a one-to-one relationship with the `Payments` table.
    * `booking_id` of `Payments` is a foreign key referencing `booking_id` of `Bookings` table.
+
+### Feature Breakdown
+| Feature | Description |
+| :--- | :--- |
+| **User Management** | This feature handle user management. |
+| **Property Management** | This feature handle property management. |
+| **Search and Filtering System** | This handle searching and filtering for faster properties findings. |
+| **Booking System** | This feature handles reservation related management. |
+| **Review and Rating System** | Allows **Guests** to submit feedback and ratings about the experience of thier reservations. |
+| **Payment Integration** | Manages the secure initiation and tracking of payment transactions. |
